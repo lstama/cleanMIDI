@@ -11,9 +11,9 @@ Key_signature: "major"
 
 Time_signature: 4, 2, 24, 8 
 
-usage :
+USAGE:
 
-Midicsv < (fileinput).mid | replacecomma | simplify | Csvmidi > (fileoutput),mid
+Midicsv < (input).mid | replacecomma | simplify | Csvmidi > (output),mid
 
 (You can get Midicsv and Csvmidi documentation on http://www.fourmilab.ch/webtools/midicsv/)
 
